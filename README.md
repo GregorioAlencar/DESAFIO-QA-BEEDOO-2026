@@ -208,6 +208,12 @@ Alta
 
 A interface da listagem apresenta problemas de layout em resoluções menores.
 
+**Passos para reproduzir**
+
+1. Acessar a tela de listagem de cursos
+2. Reduzir a largura da janela ou acessar em resolução mobile
+3. Observar o comportamento dos cards e elementos da interface
+
 **Resultado atual**
 
 Os cards e elementos da interface não se ajustam corretamente em telas menores.
@@ -236,11 +242,16 @@ Esses pontos não impedem o funcionamento da aplicação, mas podem melhorar a q
 
 # 10. Evidências
 
-Pasta do GoogleDrive com imagens: https://drive.google.com/drive/folders/1Q26qX1YPmWvp16HsC6BEO-fZmGQwhU1K?usp=sharing
+Os materiais produzidos durante o desafio podem ser acessados nos links abaixo:
 
-Planilha Registro de Bugs: https://docs.google.com/spreadsheets/d/16V2CsZecMfE7fIf2ok-W_4wehew9cftlLhe4x9v232Q/edit?usp=sharing
+**Evidências dos testes (prints e gravações)**  
+https://drive.google.com/drive/folders/1Q26qX1YPmWvp16HsC6BEO-fZmGQwhU1K?usp=sharing
 
-Planilha Casos de Teste: https://docs.google.com/spreadsheets/d/10uu8TQi7LpaAUQLd8YH_otb7_NhEZlHIlghPVcpgOVY/edit?usp=sharing
+**Planilha – Registro de Bugs**  
+https://docs.google.com/spreadsheets/d/16V2CsZecMfE7fIf2ok-W_4wehew9cftlLhe4x9v232Q/edit?usp=sharing
+
+**Planilha – Casos de Teste**  
+https://docs.google.com/spreadsheets/d/10uu8TQi7LpaAUQLd8YH_otb7_NhEZlHIlghPVcpgOVY/edit?usp=sharing
 
 ---
 
