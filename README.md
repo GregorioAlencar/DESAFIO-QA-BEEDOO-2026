@@ -237,7 +237,9 @@ Esses pontos não impedem o funcionamento da aplicação, mas podem melhorar a q
 # 10. Evidências
 
 Pasta do GoogleDrive com imagens: https://drive.google.com/drive/folders/1Q26qX1YPmWvp16HsC6BEO-fZmGQwhU1K?usp=sharing
+
 Planilha Registro de Bugs: https://docs.google.com/spreadsheets/d/16V2CsZecMfE7fIf2ok-W_4wehew9cftlLhe4x9v232Q/edit?usp=sharing
+
 Planilha Casos de Teste: https://docs.google.com/spreadsheets/d/10uu8TQi7LpaAUQLd8YH_otb7_NhEZlHIlghPVcpgOVY/edit?usp=sharing
 
 ---
