@@ -10,7 +10,7 @@ O objetivo deste desafio foi avaliar a aplicação sob a perspectiva de qualidad
 
 ---
 
-# 2. Análise inicial da aplicação
+## 2. Análise inicial da aplicação
 
 A aplicação analisada consiste em um módulo simples de gerenciamento de cursos.
 
@@ -24,7 +24,7 @@ O fluxo principal da aplicação está concentrado no formulário de cadastro e 
 
 ---
 
-# 3. Principais fluxos identificados
+## 3. Principais fluxos identificados
 
 Durante a exploração da aplicação foram identificados os seguintes fluxos principais:
 
@@ -54,7 +54,7 @@ Durante a exploração da aplicação foram identificados os seguintes fluxos pr
 
 ---
 
-# 4. Pontos considerados críticos para teste
+## 4. Pontos considerados críticos para teste
 
 Durante a análise foram identificados alguns pontos de maior impacto para a qualidade do sistema:
 
@@ -69,7 +69,7 @@ Durante a análise foram identificados alguns pontos de maior impacto para a qua
 
 ---
 
-# 5. Estratégia utilizada para criação dos testes
+## 5. Estratégia utilizada para criação dos testes
 
 Considerando o escopo da aplicação, os testes foram organizados com foco em:
 
@@ -89,7 +89,7 @@ Foram utilizados cenários baseados em:
 
 ---
 
-# 6. Casos de teste
+## 6. Casos de teste
 
 Os cenários e casos de teste foram documentados em uma planilha contendo:
 
@@ -107,14 +107,14 @@ COLOCAR LINK DO GOOGLE SHEETS AQUI
 
 ---
 
-# 7. Execução dos testes
+## 7. Execução dos testes
 
 Os testes foram executados diretamente na aplicação disponibilizada no desafio.
 
 Durante a execução foram coletadas evidências através de:
 
-* prints de tela
-* gravações curtas demonstrando os comportamentos observados
+* Prints de tela
+* Gravações curtas demonstrando os comportamentos observados
 
 Link das evidências:
 
@@ -122,9 +122,9 @@ COLOCAR LINK DO DRIVE AQUI
 
 ---
 
-# 8. Bugs identificados
+## 8. Bugs identificados
 
-## Bug 1 — Cadastro permitido com campos vazios
+### Bug 1 — Cadastro permitido com campos vazios
 
 **Descrição**
 
@@ -150,7 +150,7 @@ Alta
 
 ---
 
-## Bug 2 — Data final anterior à data inicial
+### Bug 2 — Data final anterior à data inicial
 
 **Descrição**
 
@@ -176,7 +176,7 @@ Alta
 
 ---
 
-## Bug 3 — Exclusão não remove curso da listagem
+### Bug 3 — Exclusão não remove curso da listagem
 
 **Descrição**
 
@@ -202,7 +202,7 @@ Alta
 
 ---
 
-## Bug 4 — Problemas de responsividade na listagem
+### Bug 4 — Problemas de responsividade na listagem
 
 **Descrição**
 
@@ -228,7 +228,34 @@ Média
 
 ---
 
-# 9. Observações e melhorias
+### Bug 5 — Não é possível acessar curso na listagem
+
+**Descrição**
+
+Após cadastrar um curso, não é possível interagir com o item na listagem. O ponteiro do mouse é bloqueado e nenhuma ação pode ser executada sobre o curso.
+
+**Passos para reproduzir**
+
+1. Acessar a tela de cadastro
+2. Criar um novo curso
+3. Ir para a tela de listagem
+4. Tentar clicar ou interagir com o curso criado
+
+**Resultado atual**
+
+A interface bloqueia a interação do cursor com o elemento do curso.
+
+**Resultado esperado**
+
+O usuário deveria conseguir acessar ou interagir com o curso listado.
+
+**Severidade**
+
+Alta
+
+---
+
+## 9. Observações e melhorias
 
 Durante a análise também foram identificadas algumas oportunidades de melhoria:
 
@@ -240,22 +267,22 @@ Esses pontos não impedem o funcionamento da aplicação, mas podem melhorar a q
 
 ---
 
-# 10. Evidências
+## 10. Evidências
 
 Os materiais produzidos durante o desafio podem ser acessados nos links abaixo:
 
-**Evidências dos testes (prints e gravações)**  
+**Evidências dos testes (prints e gravações)**
 https://drive.google.com/drive/folders/1Q26qX1YPmWvp16HsC6BEO-fZmGQwhU1K?usp=sharing
 
-**Planilha – Registro de Bugs**  
+**Planilha – Registro de Bugs**
 https://docs.google.com/spreadsheets/d/16V2CsZecMfE7fIf2ok-W_4wehew9cftlLhe4x9v232Q/edit?usp=sharing
 
-**Planilha – Casos de Teste**  
+**Planilha – Casos de Teste**
 https://docs.google.com/spreadsheets/d/10uu8TQi7LpaAUQLd8YH_otb7_NhEZlHIlghPVcpgOVY/edit?usp=sharing
 
 ---
 
-# 11. Conclusão
+## 11. Conclusão
 
 A aplicação apresenta um fluxo simples e funcional, porém foram identificadas falhas importantes relacionadas à validação de dados e consistência das ações realizadas.
 
